@@ -114,3 +114,25 @@ VITE_API_URL=https://api-236974.onrender.com
 Database: MongoDB Atlas
 Database Name: 236974_LamThaiNguyen
 Collection: foods
+## Cau 9 - Kiem tra tong the va hoan thien bai nop
+
+Da kiem tra cac thanh phan:
+- GitHub Repository
+- MongoDB Atlas
+- Backend REST API
+- Frontend React
+- Docker Backend
+- Docker Frontend
+- Render Backend
+- Render Frontend
+
+Chuc nang:
+- Hien thi danh sach mon an
+- Xem chi tiet mon an
+- Them mon an
+- Cap nhat mon an
+- Xoa mon an
+- Tim kiem mon an
+
+Thong tin MongoDB:
+Cluster0 / 236974_LamThaiNguyen / foods
