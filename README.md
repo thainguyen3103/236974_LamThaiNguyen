@@ -39,3 +39,16 @@ npm run dev
 
 ## Trien khai
 URL Docker Hub va Render se duoc cap nhat sau.
+## MongoDB Atlas
+
+Database: 236974_LamThaiNguyen
+
+Collection: foods
+
+Du lieu mau:
+- MA001: Pho bo
+- MA002: Com tam
+- MA003: Bun bo Hue
+
+Backend su dung MongoDB Atlas.
+Cau hinh ket noi trong backend/.env
