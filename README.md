@@ -52,3 +52,20 @@ Du lieu mau:
 
 Backend su dung MongoDB Atlas.
 Cau hinh ket noi trong backend/.env
+## Docker Backend
+
+Docker Hub:
+https://hub.docker.com/r/thainguyen3103/backend
+
+Docker image:
+thainguyen3103/backend:1.0
+
+Build:
+docker build -t thainguyen3103/backend:1.0 ./backend
+
+Chay Docker:
+docker run -d --name food-backend -p 5001:5000 --env-file backend/.env thainguyen3103/backend:1.0
+
+Kiem tra API:
+http://localhost:5001/health
+http://localhost:5001/api/foods
