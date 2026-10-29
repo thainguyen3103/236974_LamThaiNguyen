@@ -101,3 +101,16 @@ URL: https://web-236974.onrender.com/
 Root Directory: frontend
 Build Command: npm ci && npm run build
 Publish Directory: dist
+## Cau 8 - Render Backend
+
+Service: api-236974
+Backend URL: https://api-236974.onrender.com
+Health: https://api-236974.onrender.com/health
+Foods API: https://api-236974.onrender.com/api/foods
+
+Frontend Environment:
+VITE_API_URL=https://api-236974.onrender.com
+
+Database: MongoDB Atlas
+Database Name: 236974_LamThaiNguyen
+Collection: foods
