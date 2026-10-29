@@ -69,3 +69,19 @@ docker run -d --name food-backend -p 5001:5000 --env-file backend/.env thainguye
 Kiem tra API:
 http://localhost:5001/health
 http://localhost:5001/api/foods
+## Cau 6 - Docker Frontend
+
+Docker Hub Frontend:
+https://hub.docker.com/r/thainguyen3103/frontend
+
+Docker image:
+thainguyen3103/frontend:1.0
+
+### Build Frontend
+docker build --build-arg VITE_API_URL=http://localhost:5001 -t thainguyen3103/frontend:1.0 ./frontend
+
+### Chay Frontend
+docker run -d --name food-frontend -p 3001:80 thainguyen3103/frontend:1.0
+
+### Truy cap
+http://localhost:3001
