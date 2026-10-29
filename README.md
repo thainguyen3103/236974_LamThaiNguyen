@@ -85,3 +85,12 @@ docker run -d --name food-frontend -p 3001:80 thainguyen3103/frontend:1.0
 
 ### Truy cap
 http://localhost:3001
+## Cau 7 - Trien khai Frontend tren Render
+
+Service: web-236974
+
+Frontend URL: DAN_LINK_RENDER_CUA_BAN
+
+Root Directory: frontend
+Build Command: npm ci && npm run build
+Publish Directory: dist
