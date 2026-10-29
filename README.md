@@ -94,3 +94,10 @@ Frontend URL: DAN_LINK_RENDER_CUA_BAN
 Root Directory: frontend
 Build Command: npm ci && npm run build
 Publish Directory: dist
+## Cau 7 - Render Frontend
+
+Service: web-236974
+URL: https://web-236974.onrender.com/
+Root Directory: frontend
+Build Command: npm ci && npm run build
+Publish Directory: dist
